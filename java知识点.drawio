@@ -1,9 +1,24 @@
-<mxfile host="processflow.sharehoo.cn" modified="2021-04-20T13:47:10.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="cnz61i4TDFokCBdsOR2F" version="14.3.2" type="github">
+<mxfile host="processflow.sharehoo.cn" modified="2021-04-20T13:59:35.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 Edg/89.0.774.77" etag="cC4LLE0WkmDGBIGWHoyA" version="14.3.2" type="github">
   <diagram id="xvWdQIAjAlRENaX2uAHI" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S93GcgbpvPwbco9u6Sje-1" value="&lt;h1 class=&quot;title-article&quot; id=&quot;articleContentId&quot; style=&quot;box-sizing: border-box ; outline: 0px ; margin: 0px ; padding: 0px ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;simhei&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;simsun&amp;#34; ; font-size: 28px ; overflow-wrap: break-word ; word-break: break-all&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;lambda&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S93GcgbpvPwbco9u6Sje-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="790" height="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="S93GcgbpvPwbco9u6Sje-3" value="Lambda中不能访问接口的默认方法" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S93GcgbpvPwbco9u6Sje-4" value="Lambda中访问了外部的变量后，这个变量就不能改变了" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S93GcgbpvPwbco9u6Sje-5" value="Lambda中的this是定义lambda时所在类的实例" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="350" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
