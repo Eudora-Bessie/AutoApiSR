@@ -1,1 +1,73 @@
-<mxfile host="processflow.sharehoo.cn" modified="2021-04-24T12:19:07.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" version="14.3.2" etag="m7x0Q4QUi7H5iXuw8XpT" type="github"><diagram id="r4tI7-QEA74NGSe-jzcr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="processflow.sharehoo.cn" modified="2021-04-24T12:32:54.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="FEFnjYVg4HZuBdmGMPPV" version="14.3.2" type="github">
+  <diagram id="r4tI7-QEA74NGSe-jzcr" name="第 1 页">
+    <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6500" pageHeight="4500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" parent="1" source="pQ-ap-EGcs-gZTDshkdp-3" target="pQ-ap-EGcs-gZTDshkdp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-3" value="SELECT DATABASE();" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-5" value="显示当前正在使用的数据库" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="710" y="220" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" source="pQ-ap-EGcs-gZTDshkdp-8" target="pQ-ap-EGcs-gZTDshkdp-9" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-8" value="USE 数据库名;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-9" value="切换数据库" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="710" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" source="pQ-ap-EGcs-gZTDshkdp-11" target="pQ-ap-EGcs-gZTDshkdp-12" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-11" value="SHOW DATABASES;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-12" value="显示所有的数据库" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="710" y="340" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" source="pQ-ap-EGcs-gZTDshkdp-14" target="pQ-ap-EGcs-gZTDshkdp-15" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-14" value="SHOW TABLES;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-15" value="显示数据库中的所有的表" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" source="pQ-ap-EGcs-gZTDshkdp-17" target="pQ-ap-EGcs-gZTDshkdp-18" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-17" value="SHOW COLUMNS FROM 表名;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-18" value="显示表的结构" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="710" y="460" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" source="pQ-ap-EGcs-gZTDshkdp-20" target="pQ-ap-EGcs-gZTDshkdp-21" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-20" value="SHOW CREATE DATABASE 数据库名;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-21" value="显示数据库创建时的命令" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="710" y="520" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" source="pQ-ap-EGcs-gZTDshkdp-23" target="pQ-ap-EGcs-gZTDshkdp-24" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-23" value="SHOW CREATE TABLE 表名;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="370" y="580" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-24" value="显示表创建时的命令" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="710" y="580" width="190" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
