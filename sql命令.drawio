@@ -1,4 +1,4 @@
-<mxfile host="processflow.sharehoo.cn" modified="2021-04-24T12:34:24.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="Y9uazbKlRqnyosoVH8aU" version="14.3.2" type="github">
+<mxfile host="processflow.sharehoo.cn" modified="2021-04-24T13:32:01.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="HzICSDHtgypo2ymjA_I9" version="14.3.2" type="github">
   <diagram id="r4tI7-QEA74NGSe-jzcr" name="第 1 页">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6500" pageHeight="4500" math="0" shadow="0">
       <root>
@@ -66,6 +66,30 @@
         </mxCell>
         <mxCell id="pQ-ap-EGcs-gZTDshkdp-24" value="显示表创建时的命令" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1770" y="500" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" source="pQ-ap-EGcs-gZTDshkdp-26" target="pQ-ap-EGcs-gZTDshkdp-27" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-26" value="SELECT 列名 from 表名;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="560" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" parent="1" source="pQ-ap-EGcs-gZTDshkdp-27" target="pQ-ap-EGcs-gZTDshkdp-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-27" value="显示表中指定列的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="560" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-32" value="显示多个列, 在列名之间用逗号隔开" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="560" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" source="pQ-ap-EGcs-gZTDshkdp-42" target="pQ-ap-EGcs-gZTDshkdp-43" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-42" value="SELECT * from 表名;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="620" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ-ap-EGcs-gZTDshkdp-43" value="显示表中所有列的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="620" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
