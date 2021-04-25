@@ -1,4 +1,4 @@
-<mxfile host="processflow.sharehoo.cn" modified="2021-04-25T06:27:45.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="tvW5MY-GnoGhE_0V-yqO" version="14.3.2" type="github">
+<mxfile host="processflow.sharehoo.cn" modified="2021-04-25T06:32:33.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="tI4JyTQFQ9Cjjm-AFl9J" version="14.3.2" type="github">
   <diagram id="r4tI7-QEA74NGSe-jzcr" name="第 1 页">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6500" pageHeight="4500" math="0" shadow="0">
       <root>
@@ -177,8 +177,8 @@
         <mxCell id="7NTvKbmtiWnmeBb9D2Oc-26" value="SELECT 列名 from 表名 WHERE 列名 IN(要包含的值);" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1260" y="1080" width="430" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-27" value="显示表中指定列中指定要包含的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="1080" width="290" height="40" as="geometry" />
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-27" value="显示表中指定列中指定要包含的值的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1080" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7NTvKbmtiWnmeBb9D2Oc-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="7NTvKbmtiWnmeBb9D2Oc-29" target="7NTvKbmtiWnmeBb9D2Oc-30" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -188,6 +188,21 @@
         </mxCell>
         <mxCell id="7NTvKbmtiWnmeBb9D2Oc-30" value="显示表中指定列中除了指定包含值的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1770" y="1140" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="7NTvKbmtiWnmeBb9D2Oc-32" target="7NTvKbmtiWnmeBb9D2Oc-33" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-32" value="SELECT 列名 from 表名 WHERE 列名 LIKE(&#39;值&#39;);" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1200" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7NTvKbmtiWnmeBb9D2Oc-33" target="7NTvKbmtiWnmeBb9D2Oc-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-33" value="显示表中指定列中匹配指定值的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1200" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-34" value="通配符：%（匹配0个或多个）、_（匹配1个）" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="1200" width="380" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
