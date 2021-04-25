@@ -1,4 +1,4 @@
-<mxfile host="processflow.sharehoo.cn" modified="2021-04-25T04:07:55.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="jHQj-_FJmkYA48nP1-NZ" version="14.3.2" type="github">
+<mxfile host="processflow.sharehoo.cn" modified="2021-04-25T06:27:45.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="tvW5MY-GnoGhE_0V-yqO" version="14.3.2" type="github">
   <diagram id="r4tI7-QEA74NGSe-jzcr" name="第 1 页">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6500" pageHeight="4500" math="0" shadow="0">
       <root>
@@ -170,6 +170,24 @@
         </mxCell>
         <mxCell id="7NTvKbmtiWnmeBb9D2Oc-23" value="包含值1和值2" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="2200" y="960" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="7NTvKbmtiWnmeBb9D2Oc-26" target="7NTvKbmtiWnmeBb9D2Oc-27" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-26" value="SELECT 列名 from 表名 WHERE 列名 IN(要包含的值);" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1080" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-27" value="显示表中指定列中指定要包含的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1080" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="7NTvKbmtiWnmeBb9D2Oc-29" target="7NTvKbmtiWnmeBb9D2Oc-30" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-29" value="SELECT 列名 from 表名 WHERE 列名 NOT IN(不包含的值);" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1140" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7NTvKbmtiWnmeBb9D2Oc-30" value="显示表中指定列中除了指定包含值的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1140" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
