@@ -1,4 +1,4 @@
-<mxfile host="processflow.sharehoo.cn" modified="2021-04-26T07:34:09.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="dTGRqWJpsq7BbQ0MC9ct" version="14.3.2" type="github">
+<mxfile host="processflow.sharehoo.cn" modified="2021-04-26T08:55:16.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="mla2vc84gDfc1EmlaKu5" version="14.3.2" type="github">
   <diagram id="r4tI7-QEA74NGSe-jzcr" name="第 1 页">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6500" pageHeight="4500" math="0" shadow="0">
       <root>
@@ -230,6 +230,15 @@
         </mxCell>
         <mxCell id="sf9O1mzC-4q-tVfATymb-9" value="显示表中指定列拼接后的数据，列名为指定的名字" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1770" y="1380" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sf9O1mzC-4q-tVfATymb-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="sf9O1mzC-4q-tVfATymb-11" target="sf9O1mzC-4q-tVfATymb-12" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sf9O1mzC-4q-tVfATymb-11" value="SELECT 列名, 列计算 AS 列别名 from 表名 group by列名;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1440" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sf9O1mzC-4q-tVfATymb-12" value="显示表中指定列分组计算后的数据" style="text;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1440" width="310" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
