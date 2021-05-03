@@ -1,4 +1,4 @@
-<mxfile host="processflow.sharehoo.cn" modified="2021-05-03T03:30:46.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="u5lzHtBCdI1uwfdmcvTn" version="14.3.2" type="github">
+<mxfile host="processflow.sharehoo.cn" modified="2021-05-03T05:49:58.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="g9lbIAhBfqX-QYLiUn9d" version="14.3.2" type="github">
   <diagram id="W1qJ5S1aCYu_Js1Z4FUn" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6500" pageHeight="4500" math="0" shadow="0">
       <root>
@@ -105,6 +105,39 @@
         </mxCell>
         <mxCell id="O_CyK5du5Dp2RkUTYjch-55" value="&lt;div&gt;Undo 日志存储的是历史数据快照，Redo 日志则存储最新数据&lt;/div&gt;" style="text;html=1;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="765" y="1060" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="O_CyK5du5Dp2RkUTYjch-56" target="O_CyK5du5Dp2RkUTYjch-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-56" value="100" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="O_CyK5du5Dp2RkUTYjch-57" target="O_CyK5du5Dp2RkUTYjch-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-57" value="101" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="O_CyK5du5Dp2RkUTYjch-59" target="O_CyK5du5Dp2RkUTYjch-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-59" value="102" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="O_CyK5du5Dp2RkUTYjch-61" target="O_CyK5du5Dp2RkUTYjch-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-61" value="103" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-63" value="&lt;div&gt;DB_TRX_ID = 100&lt;/div&gt;&lt;div&gt;500&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1400" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-66" value="104" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O_CyK5du5Dp2RkUTYjch-68" value="&lt;div&gt;DB_TRX_ID = 101&lt;/div&gt;&lt;div&gt;4&lt;span&gt;00&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1800" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
